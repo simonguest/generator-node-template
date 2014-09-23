@@ -1,0 +1,12 @@
+{
+  "name": "generator-node-template",
+  "version": "0.1.0",
+  "description": "Yo generator for a simple MEAN template",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "slugify": "^0.1.0",
+    "yeoman-generator": "^0.17.6"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "<%= projectName %>",
+    "version": "0.0.1",
+    "description": "<%= projectDescription %>",
+    "private": true,
+    "repository": {},
+    "dependencies": {
+        "express": "^4.8.7"<% if (logOption == 'logger.info') {%>,
+        "winston": "^0.8.0"<% } %>
+    }
+}
