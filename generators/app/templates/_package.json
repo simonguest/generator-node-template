@@ -5,7 +5,9 @@
     "private": true,
     "repository": {},
     "dependencies": {
-        "express": "^4.8.7"<% if (logOption == 'logger.info') {%>,
-        "winston": "^0.8.0"<% } %>
+      "config": "^1.2.2",
+      "express": "^4.8.7",
+      "mongoose": "^3.8.17"<% if (logOption == 'logger.info') {%>,
+      "winston": "^0.8.0"<% } %>
     }
 }
